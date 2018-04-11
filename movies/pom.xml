@@ -49,8 +49,6 @@
 </dependency> 
 	</dependencies>
      <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
-
-  </dependencies>
   <build>
     <finalName>movies</finalName>
   </build>
