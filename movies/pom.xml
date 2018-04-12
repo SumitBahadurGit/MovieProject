@@ -9,6 +9,11 @@
   <url>http://maven.apache.org</url>
   <properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
+<<<<<<< HEAD
+		<hibernate.version>4.3.5.Final</hibernate.version>
+		
+=======
+>>>>>>> branch 'dev' of https://github.com/SumitBahadurGit/MovieProject.git
 	</properties>
   <dependencies>
     <dependency>
@@ -46,9 +51,44 @@
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-servlet-api</artifactId>
     <version>8.0.15</version>
+<<<<<<< HEAD
+</dependency>
+<!-- Spring dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+ 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+ 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+    
+  </dependencies>
+=======
 </dependency> 
 	</dependencies>
      <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
+>>>>>>> branch 'dev' of https://github.com/SumitBahadurGit/MovieProject.git
   <build>
     <finalName>movies</finalName>
   </build>
